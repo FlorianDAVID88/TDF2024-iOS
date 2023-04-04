@@ -12,29 +12,29 @@
 		EF17250029DC6FDA00FAEB5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1724FF29DC6FDA00FAEB5A /* Assets.xcassets */; };
 		EF17250329DC6FDA00FAEB5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF17250229DC6FDA00FAEB5A /* Preview Assets.xcassets */; };
 		EF17250529DC6FDA00FAEB5A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17250429DC6FDA00FAEB5A /* Persistence.swift */; };
-		EF17250829DC6FDA00FAEB5A /* TDF2024_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF17250629DC6FDA00FAEB5A /* TDF2024_iOS.xcdatamodeld */; };
 		EF17251329DC70E600FAEB5A /* Col.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17251229DC70E600FAEB5A /* Col.swift */; };
 		EF17251529DC712700FAEB5A /* Etape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17251429DC712700FAEB5A /* Etape.swift */; };
 		EF17251729DC72A400FAEB5A /* TDFViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17251629DC72A400FAEB5A /* TDFViewModel.swift */; };
 		EF17251929DC72B500FAEB5A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17251829DC72B500FAEB5A /* HomeView.swift */; };
 		EF17251B29DC72C000FAEB5A /* EtapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17251A29DC72C000FAEB5A /* EtapeView.swift */; };
 		EF17251D29DC72D000FAEB5A /* ColView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17251C29DC72D000FAEB5A /* ColView.swift */; };
+		EF9222B629DC7A660043DC85 /* TDF2024_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF9222B429DC7A660043DC85 /* TDF2024_iOS.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF1724F829DC6FD900FAEB5A /* TDF2024-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TDF2024-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1724F829DC6FD900FAEB5A /* Tour de France 2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tour de France 2024.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1724FB29DC6FD900FAEB5A /* TDF2024_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDF2024_iOSApp.swift; sourceTree = "<group>"; };
 		EF1724FD29DC6FD900FAEB5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF1724FF29DC6FDA00FAEB5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF17250229DC6FDA00FAEB5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF17250429DC6FDA00FAEB5A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		EF17250729DC6FDA00FAEB5A /* TDF2024_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TDF2024_iOS.xcdatamodel; sourceTree = "<group>"; };
 		EF17251229DC70E600FAEB5A /* Col.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Col.swift; sourceTree = "<group>"; };
 		EF17251429DC712700FAEB5A /* Etape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etape.swift; sourceTree = "<group>"; };
 		EF17251629DC72A400FAEB5A /* TDFViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFViewModel.swift; sourceTree = "<group>"; };
 		EF17251829DC72B500FAEB5A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EF17251A29DC72C000FAEB5A /* EtapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtapeView.swift; sourceTree = "<group>"; };
 		EF17251C29DC72D000FAEB5A /* ColView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColView.swift; sourceTree = "<group>"; };
+		EF9222B529DC7A660043DC85 /* TDF2024_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TDF2024_iOS.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 		EF1724F929DC6FD900FAEB5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF1724F829DC6FD900FAEB5A /* TDF2024-iOS.app */,
+				EF1724F829DC6FD900FAEB5A /* Tour de France 2024.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,13 +67,13 @@
 		EF1724FA29DC6FD900FAEB5A /* TDF2024-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				EF17251129DC704800FAEB5A /* Font */,
 				EF17251029DC703400FAEB5A /* Model */,
 				EF17250F29DC702B00FAEB5A /* ViewModel */,
 				EF17250E29DC702300FAEB5A /* View */,
 				EF1724FB29DC6FD900FAEB5A /* TDF2024_iOSApp.swift */,
 				EF1724FF29DC6FDA00FAEB5A /* Assets.xcassets */,
 				EF17250429DC6FDA00FAEB5A /* Persistence.swift */,
+				EF9222B429DC7A660043DC85 /* TDF2024_iOS.xcdatamodeld */,
 				EF17250129DC6FDA00FAEB5A /* Preview Content */,
 			);
 			path = "TDF2024-iOS";
@@ -115,20 +115,12 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		EF17251129DC704800FAEB5A /* Font */ = {
-			isa = PBXGroup;
-			children = (
-				EF17250629DC6FDA00FAEB5A /* TDF2024_iOS.xcdatamodeld */,
-			);
-			path = Font;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF1724F729DC6FD900FAEB5A /* TDF2024-iOS */ = {
+		EF1724F729DC6FD900FAEB5A /* Tour de France 2024 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF17250B29DC6FDA00FAEB5A /* Build configuration list for PBXNativeTarget "TDF2024-iOS" */;
+			buildConfigurationList = EF17250B29DC6FDA00FAEB5A /* Build configuration list for PBXNativeTarget "Tour de France 2024" */;
 			buildPhases = (
 				EF1724F429DC6FD900FAEB5A /* Sources */,
 				EF1724F529DC6FD900FAEB5A /* Frameworks */,
@@ -138,9 +130,9 @@
 			);
 			dependencies = (
 			);
-			name = "TDF2024-iOS";
+			name = "Tour de France 2024";
 			productName = "TDF2024-iOS";
-			productReference = EF1724F829DC6FD900FAEB5A /* TDF2024-iOS.app */;
+			productReference = EF1724F829DC6FD900FAEB5A /* Tour de France 2024.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF1724F729DC6FD900FAEB5A /* TDF2024-iOS */,
+				EF1724F729DC6FD900FAEB5A /* Tour de France 2024 */,
 			);
 		};
 /* End PBXProject section */
@@ -193,7 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF17250829DC6FDA00FAEB5A /* TDF2024_iOS.xcdatamodeld in Sources */,
+				EF9222B629DC7A660043DC85 /* TDF2024_iOS.xcdatamodeld in Sources */,
 				EF17251529DC712700FAEB5A /* Etape.swift in Sources */,
 				EF17251329DC70E600FAEB5A /* Col.swift in Sources */,
 				EF17250529DC6FDA00FAEB5A /* Persistence.swift in Sources */,
@@ -391,7 +383,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF17250B29DC6FDA00FAEB5A /* Build configuration list for PBXNativeTarget "TDF2024-iOS" */ = {
+		EF17250B29DC6FDA00FAEB5A /* Build configuration list for PBXNativeTarget "Tour de France 2024" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF17250C29DC6FDA00FAEB5A /* Debug */,
@@ -403,12 +395,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		EF17250629DC6FDA00FAEB5A /* TDF2024_iOS.xcdatamodeld */ = {
+		EF9222B429DC7A660043DC85 /* TDF2024_iOS.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				EF17250729DC6FDA00FAEB5A /* TDF2024_iOS.xcdatamodel */,
+				EF9222B529DC7A660043DC85 /* TDF2024_iOS.xcdatamodel */,
 			);
-			currentVersion = EF17250729DC6FDA00FAEB5A /* TDF2024_iOS.xcdatamodel */;
+			currentVersion = EF9222B529DC7A660043DC85 /* TDF2024_iOS.xcdatamodel */;
 			path = TDF2024_iOS.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
