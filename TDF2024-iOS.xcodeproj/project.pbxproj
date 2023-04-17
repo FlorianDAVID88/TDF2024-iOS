@@ -18,7 +18,25 @@
 		EF17251929DC72B500FAEB5A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17251829DC72B500FAEB5A /* HomeView.swift */; };
 		EF17251B29DC72C000FAEB5A /* EtapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17251A29DC72C000FAEB5A /* EtapeView.swift */; };
 		EF17251D29DC72D000FAEB5A /* ColView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17251C29DC72D000FAEB5A /* ColView.swift */; };
+		EF2BFEEF29DE3E2000778A75 /* DisclosureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2BFEEE29DE3E2000778A75 /* DisclosureView.swift */; };
+		EF2BFEF529DE411700778A75 /* ListEtapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2BFEF429DE411700778A75 /* ListEtapesView.swift */; };
+		EF2BFEF729DE4B5400778A75 /* Repos.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2BFEF629DE4B5400778A75 /* Repos.swift */; };
+		EF87F8F629ED85820066489B /* CoureurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF87F8F529ED85820066489B /* CoureurView.swift */; };
+		EF87F8F829ED85A60066489B /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF87F8F729ED85A60066489B /* TeamView.swift */; };
+		EF87F8FA29ED85DD0066489B /* AllTeamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF87F8F929ED85DD0066489B /* AllTeamsView.swift */; };
+		EF87F8FC29ED8A1D0066489B /* Equipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF87F8FB29ED8A1D0066489B /* Equipe.swift */; };
 		EF9222B629DC7A660043DC85 /* TDF2024_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF9222B429DC7A660043DC85 /* TDF2024_iOS.xcdatamodeld */; };
+		EFFE533D29DD85E600C261A3 /* Galibier-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFFE533A29DD85E600C261A3 /* Galibier-Regular.ttf */; };
+		EFFE533E29DD85E600C261A3 /* Galibier-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFFE533B29DD85E600C261A3 /* Galibier-Bold.ttf */; };
+		EFFE533F29DD85E600C261A3 /* Galibier-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFFE533C29DD85E600C261A3 /* Galibier-Light.ttf */; };
+		EFFE535229DD9ACD00C261A3 /* Pays.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFE535129DD9ACD00C261A3 /* Pays.swift */; };
+		EFFE535429DD9D4600C261A3 /* TypeEtape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFE535329DD9D4600C261A3 /* TypeEtape.swift */; };
+		EFFE535E29DDA1CC00C261A3 /* Ville.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFE535D29DDA1CC00C261A3 /* Ville.swift */; };
+		EFFE536029DDA22600C261A3 /* VilleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFE535F29DDA22600C261A3 /* VilleViewModel.swift */; };
+		EFFE536229DDA70700C261A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFE536129DDA70700C261A3 /* AppDelegate.swift */; };
+		EFFE536529DDB40D00C261A3 /* CarteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFE536429DDB40D00C261A3 /* CarteView.swift */; };
+		EFFE536829DDC0FE00C261A3 /* TDFTextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFE536729DDC0FE00C261A3 /* TDFTextStyles.swift */; };
+		EFFE536B29DDDE1700C261A3 /* Localize_Swift in Frameworks */ = {isa = PBXBuildFile; productRef = EFFE536A29DDDE1700C261A3 /* Localize_Swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +52,25 @@
 		EF17251829DC72B500FAEB5A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EF17251A29DC72C000FAEB5A /* EtapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtapeView.swift; sourceTree = "<group>"; };
 		EF17251C29DC72D000FAEB5A /* ColView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColView.swift; sourceTree = "<group>"; };
+		EF2BFEEE29DE3E2000778A75 /* DisclosureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureView.swift; sourceTree = "<group>"; };
+		EF2BFEF429DE411700778A75 /* ListEtapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEtapesView.swift; sourceTree = "<group>"; };
+		EF2BFEF629DE4B5400778A75 /* Repos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repos.swift; sourceTree = "<group>"; };
+		EF87F8F529ED85820066489B /* CoureurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoureurView.swift; sourceTree = "<group>"; };
+		EF87F8F729ED85A60066489B /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		EF87F8F929ED85DD0066489B /* AllTeamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTeamsView.swift; sourceTree = "<group>"; };
+		EF87F8FB29ED8A1D0066489B /* Equipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipe.swift; sourceTree = "<group>"; };
 		EF9222B529DC7A660043DC85 /* TDF2024_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TDF2024_iOS.xcdatamodel; sourceTree = "<group>"; };
+		EFFE533A29DD85E600C261A3 /* Galibier-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Galibier-Regular.ttf"; sourceTree = "<group>"; };
+		EFFE533B29DD85E600C261A3 /* Galibier-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Galibier-Bold.ttf"; sourceTree = "<group>"; };
+		EFFE533C29DD85E600C261A3 /* Galibier-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Galibier-Light.ttf"; sourceTree = "<group>"; };
+		EFFE535129DD9ACD00C261A3 /* Pays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pays.swift; sourceTree = "<group>"; };
+		EFFE535329DD9D4600C261A3 /* TypeEtape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeEtape.swift; sourceTree = "<group>"; };
+		EFFE535D29DDA1CC00C261A3 /* Ville.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ville.swift; sourceTree = "<group>"; };
+		EFFE535F29DDA22600C261A3 /* VilleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VilleViewModel.swift; sourceTree = "<group>"; };
+		EFFE536129DDA70700C261A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFFE536329DDAF7F00C261A3 /* Tour-de-France-2024-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Tour-de-France-2024-Info.plist"; sourceTree = "<group>"; };
+		EFFE536429DDB40D00C261A3 /* CarteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteView.swift; sourceTree = "<group>"; };
+		EFFE536729DDC0FE00C261A3 /* TDFTextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFTextStyles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFFE536B29DDDE1700C261A3 /* Localize_Swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +88,7 @@
 		EF1724EF29DC6FD900FAEB5A = {
 			isa = PBXGroup;
 			children = (
+				EFFE536329DDAF7F00C261A3 /* Tour-de-France-2024-Info.plist */,
 				EF1724FA29DC6FD900FAEB5A /* TDF2024-iOS */,
 				EF1724F929DC6FD900FAEB5A /* Products */,
 			);
@@ -67,14 +105,15 @@
 		EF1724FA29DC6FD900FAEB5A /* TDF2024-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				EFFE533929DD85BC00C261A3 /* Styles */,
 				EF17251029DC703400FAEB5A /* Model */,
 				EF17250F29DC702B00FAEB5A /* ViewModel */,
 				EF17250E29DC702300FAEB5A /* View */,
 				EF1724FB29DC6FD900FAEB5A /* TDF2024_iOSApp.swift */,
 				EF1724FF29DC6FDA00FAEB5A /* Assets.xcassets */,
 				EF17250429DC6FDA00FAEB5A /* Persistence.swift */,
-				EF9222B429DC7A660043DC85 /* TDF2024_iOS.xcdatamodeld */,
 				EF17250129DC6FDA00FAEB5A /* Preview Content */,
+				EFFE536129DDA70700C261A3 /* AppDelegate.swift */,
 			);
 			path = "TDF2024-iOS";
 			sourceTree = "<group>";
@@ -90,10 +129,12 @@
 		EF17250E29DC702300FAEB5A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EF87F8F429ED855A0066489B /* Equipe */,
+				EF87F8F329ED85500066489B /* Coureur */,
+				EF2BFEF129DE407500778A75 /* Carte */,
+				EF2BFEF029DE406C00778A75 /* Home */,
 				EF1724FD29DC6FD900FAEB5A /* ContentView.swift */,
-				EF17251829DC72B500FAEB5A /* HomeView.swift */,
-				EF17251A29DC72C000FAEB5A /* EtapeView.swift */,
-				EF17251C29DC72D000FAEB5A /* ColView.swift */,
+				EF2BFEEE29DE3E2000778A75 /* DisclosureView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -102,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				EF17251629DC72A400FAEB5A /* TDFViewModel.swift */,
+				EFFE535F29DDA22600C261A3 /* VilleViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -109,10 +151,79 @@
 		EF17251029DC703400FAEB5A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EF9222B429DC7A660043DC85 /* TDF2024_iOS.xcdatamodeld */,
 				EF17251229DC70E600FAEB5A /* Col.swift */,
 				EF17251429DC712700FAEB5A /* Etape.swift */,
+				EFFE535129DD9ACD00C261A3 /* Pays.swift */,
+				EFFE535329DD9D4600C261A3 /* TypeEtape.swift */,
+				EFFE535D29DDA1CC00C261A3 /* Ville.swift */,
+				EF2BFEF629DE4B5400778A75 /* Repos.swift */,
+				EF87F8FB29ED8A1D0066489B /* Equipe.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		EF2BFEF029DE406C00778A75 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EF17251829DC72B500FAEB5A /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EF2BFEF129DE407500778A75 /* Carte */ = {
+			isa = PBXGroup;
+			children = (
+				EFB78AF029E03CB900732BE9 /* Items */,
+				EF17251A29DC72C000FAEB5A /* EtapeView.swift */,
+				EF17251C29DC72D000FAEB5A /* ColView.swift */,
+				EFFE536429DDB40D00C261A3 /* CarteView.swift */,
+				EF2BFEF429DE411700778A75 /* ListEtapesView.swift */,
+			);
+			path = Carte;
+			sourceTree = "<group>";
+		};
+		EF87F8F329ED85500066489B /* Coureur */ = {
+			isa = PBXGroup;
+			children = (
+				EF87F8F529ED85820066489B /* CoureurView.swift */,
+			);
+			path = Coureur;
+			sourceTree = "<group>";
+		};
+		EF87F8F429ED855A0066489B /* Equipe */ = {
+			isa = PBXGroup;
+			children = (
+				EF87F8F729ED85A60066489B /* TeamView.swift */,
+				EF87F8F929ED85DD0066489B /* AllTeamsView.swift */,
+			);
+			path = Equipe;
+			sourceTree = "<group>";
+		};
+		EFB78AF029E03CB900732BE9 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		EFFE533929DD85BC00C261A3 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				EFFE536629DDC0B900C261A3 /* Font */,
+				EFFE536729DDC0FE00C261A3 /* TDFTextStyles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		EFFE536629DDC0B900C261A3 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				EFFE533B29DD85E600C261A3 /* Galibier-Bold.ttf */,
+				EFFE533C29DD85E600C261A3 /* Galibier-Light.ttf */,
+				EFFE533A29DD85E600C261A3 /* Galibier-Regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +242,9 @@
 			dependencies = (
 			);
 			name = "Tour de France 2024";
+			packageProductDependencies = (
+				EFFE536A29DDDE1700C261A3 /* Localize_Swift */,
+			);
 			productName = "TDF2024-iOS";
 			productReference = EF1724F829DC6FD900FAEB5A /* Tour de France 2024.app */;
 			productType = "com.apple.product-type.application";
@@ -159,6 +273,9 @@
 				Base,
 			);
 			mainGroup = EF1724EF29DC6FD900FAEB5A;
+			packageReferences = (
+				EFFE536929DDDE1700C261A3 /* XCRemoteSwiftPackageReference "Localize-Swift" */,
+			);
 			productRefGroup = EF1724F929DC6FD900FAEB5A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -175,6 +292,9 @@
 			files = (
 				EF17250329DC6FDA00FAEB5A /* Preview Assets.xcassets in Resources */,
 				EF17250029DC6FDA00FAEB5A /* Assets.xcassets in Resources */,
+				EFFE533E29DD85E600C261A3 /* Galibier-Bold.ttf in Resources */,
+				EFFE533D29DD85E600C261A3 /* Galibier-Regular.ttf in Resources */,
+				EFFE533F29DD85E600C261A3 /* Galibier-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,15 +305,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFFE536829DDC0FE00C261A3 /* TDFTextStyles.swift in Sources */,
+				EF2BFEEF29DE3E2000778A75 /* DisclosureView.swift in Sources */,
 				EF9222B629DC7A660043DC85 /* TDF2024_iOS.xcdatamodeld in Sources */,
 				EF17251529DC712700FAEB5A /* Etape.swift in Sources */,
 				EF17251329DC70E600FAEB5A /* Col.swift in Sources */,
+				EFFE536229DDA70700C261A3 /* AppDelegate.swift in Sources */,
+				EFFE536529DDB40D00C261A3 /* CarteView.swift in Sources */,
+				EF87F8FA29ED85DD0066489B /* AllTeamsView.swift in Sources */,
+				EF87F8FC29ED8A1D0066489B /* Equipe.swift in Sources */,
 				EF17250529DC6FDA00FAEB5A /* Persistence.swift in Sources */,
 				EF17251B29DC72C000FAEB5A /* EtapeView.swift in Sources */,
+				EF87F8F629ED85820066489B /* CoureurView.swift in Sources */,
 				EF17251D29DC72D000FAEB5A /* ColView.swift in Sources */,
+				EF87F8F829ED85A60066489B /* TeamView.swift in Sources */,
+				EFFE536029DDA22600C261A3 /* VilleViewModel.swift in Sources */,
+				EFFE535229DD9ACD00C261A3 /* Pays.swift in Sources */,
+				EF2BFEF529DE411700778A75 /* ListEtapesView.swift in Sources */,
 				EF17251729DC72A400FAEB5A /* TDFViewModel.swift in Sources */,
+				EFFE535429DD9D4600C261A3 /* TypeEtape.swift in Sources */,
+				EF2BFEF729DE4B5400778A75 /* Repos.swift in Sources */,
 				EF17251929DC72B500FAEB5A /* HomeView.swift in Sources */,
 				EF1724FE29DC6FD900FAEB5A /* ContentView.swift in Sources */,
+				EFFE535E29DDA1CC00C261A3 /* Ville.swift in Sources */,
 				EF1724FC29DC6FD900FAEB5A /* TDF2024_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +459,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TDF2024-iOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tour-de-France-2024-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -353,6 +488,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TDF2024-iOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tour-de-France-2024-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -393,6 +529,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EFFE536929DDDE1700C261A3 /* XCRemoteSwiftPackageReference "Localize-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/Localize-Swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EFFE536A29DDDE1700C261A3 /* Localize_Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFFE536929DDDE1700C261A3 /* XCRemoteSwiftPackageReference "Localize-Swift" */;
+			productName = Localize_Swift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		EF9222B429DC7A660043DC85 /* TDF2024_iOS.xcdatamodeld */ = {

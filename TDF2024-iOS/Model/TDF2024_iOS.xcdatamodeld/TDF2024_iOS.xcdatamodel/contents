@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22D49" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Etape" representedClassName="Etape" syncable="YES" codeGenerationType="class">
+        <attribute name="id_etape" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="VilleTDF" representedClassName="VilleTDF" syncable="YES" codeGenerationType="class">
+        <attribute name="id_ville" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="is_depart" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name_pays" optional="YES" attributeType="String"/>
+        <attribute name="nom_ville" optional="YES" attributeType="String"/>
+    </entity>
+</model>
