@@ -1,20 +1,20 @@
 //
-//  ColView.swift
-//  TDF2024-iOS
+//  TeamView.swift
+//  Tour de France 2024
 //
-//  Created by user234243 on 4/4/23.
+//  Created by user234243 on 4/17/23.
 //
 
 import SwiftUI
 
-struct ColView: View {
+struct TeamView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct ColView_Previews: PreviewProvider {
+struct TeamView_Previews: PreviewProvider {
     static var previews: some View {
-        ColView()
+        TeamView()
     }
 }
