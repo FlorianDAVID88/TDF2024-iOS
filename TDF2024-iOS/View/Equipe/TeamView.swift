@@ -8,13 +8,50 @@
 import SwiftUI
 
 struct TeamView: View {
+    @State var team: Equipe
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            VStack(spacing: 5) {
+                Text("\(team.nom_equipe)")
+                    .modifier(TDFTitleStyle())
+                
+                Text("\(team.pays.rawValue)")
+                    .font(Font.custom("Galibier-Bold", size: 24))
+                    .textCase(.uppercase)
+                    .multilineTextAlignment(.center)
+                
+                HStack {
+                    Image("\(team.abrev_equipe)")
+                        .renderingMode(.original)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 150)
+                    
+                    Image("\(team.nom_equipe)")
+                        .renderingMode(.original)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 150)
+                }
+                
+                ListCoureursFromTeamView(team: team)
+            }
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    Image("Logo")
+                        .renderingMode(.original)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                }
+            }
+        }
     }
 }
 
 struct TeamView_Previews: PreviewProvider {
     static var previews: some View {
-        TeamView()
+        TeamView(team: Equipe.allCases[0])
+            .environmentObject(TDFViewModel(villeViewModel: VilleViewModel(), equipeViewModel: EquipeViewModel()))
     }
 }

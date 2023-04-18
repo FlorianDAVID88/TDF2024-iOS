@@ -14,7 +14,7 @@ struct TDF2024_iOSApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(TDFViewModel(villeViewModel: VilleViewModel()))
+                .environmentObject(TDFViewModel(villeViewModel: VilleViewModel(), equipeViewModel: EquipeViewModel()))
                 //.environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

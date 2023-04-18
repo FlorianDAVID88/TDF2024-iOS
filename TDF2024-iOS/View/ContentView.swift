@@ -10,37 +10,44 @@ import CoreData
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image("Logo")
-                .renderingMode(.original)
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 70)
-            
-            TabView {
-                HomeView()
-                    .tabItem {
-                        Image(systemName: "homekit")
-                        Text("Accueil").textCase(.uppercase)
-                    }
-                
-                CarteView()
-                    .tabItem {
-                        Image("fr_sfsymbol")
-                            .renderingMode(.template)
-                            .foregroundColor(.accentColor)
-                        
-                        Text("Carte").textCase(.uppercase)
-                    }
-                
-                AllTeamsView()
-                    .tabItem {
-                        Image("jersey_symbol")
-                            .renderingMode(.template)
-                            .foregroundColor(.accentColor)
-                        
-                        Text("Équipes").textCase(.uppercase)
-                    }
+        NavigationView {
+            VStack {
+                TabView {
+                    HomeView()
+                        .tabItem {
+                            Image(systemName: "homekit")
+                            Text("Accueil").textCase(.uppercase)
+                        }
+                    
+                    CarteView()
+                        .tabItem {
+                            Image("fr_sfsymbol")
+                                .renderingMode(.template)
+                                .foregroundColor(.accentColor)
+                            
+                            Text("Carte").textCase(.uppercase)
+                        }
+                        .toolbar {
+                            
+                        }
+                    
+                    AllTeamsView()
+                        .tabItem {
+                            Image("jersey_symbol")
+                                .renderingMode(.template)
+                                .foregroundColor(.accentColor)
+                            
+                            Text("Équipes").textCase(.uppercase)
+                        }
+                }
+            }
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    Image("Logo")
+                        .renderingMode(.original)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                }
             }
         }
     }
@@ -54,7 +61,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .environmentObject(TDFViewModel(villeViewModel: VilleViewModel()))
+            .environmentObject(TDFViewModel(villeViewModel: VilleViewModel(), equipeViewModel: EquipeViewModel()))
             //.environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }

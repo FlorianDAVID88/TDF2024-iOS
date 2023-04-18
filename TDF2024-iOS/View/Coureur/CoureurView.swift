@@ -8,13 +8,49 @@
 import SwiftUI
 
 struct CoureurView: View {
+    @State var coureur: Coureur
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 15) {
+            Image("\(coureur.prenom_coureur) \(coureur.nom_coureur)")
+                .renderingMode(.original)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            
+            VStack {
+                Text("\(coureur.prenom_coureur) \(coureur.nom_coureur)")
+                    .modifier(TDFTitleStyle())
+                
+                HStack {
+                    Image("\(coureur.pays.rawValue)")
+                        .renderingMode(.original)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 15)
+                    
+                    Text("\(coureur.pays.rawValue)")
+                        .font(Font.custom("Galibier-Bold", size: 24))
+                        .textCase(.uppercase)
+                        .multilineTextAlignment(.center)
+                }
+                
+                Text("\(coureur.equipe.nom_equipe)")
+                    .font(Font.custom("Galibier-Bold", size: 20))
+                    .textCase(.uppercase)
+                    .multilineTextAlignment(.center)
+            }
+            
+            Image("\(coureur.equipe.nom_equipe)")
+                .renderingMode(.original)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 150)
+        }
     }
 }
 
 struct CoureurView_Previews: PreviewProvider {
     static var previews: some View {
-        CoureurView()
+        CoureurView(coureur: Coureur.allCases[65])
     }
 }

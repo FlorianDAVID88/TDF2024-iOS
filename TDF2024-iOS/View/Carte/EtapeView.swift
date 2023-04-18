@@ -31,14 +31,23 @@ struct EtapeView: View {
                 Image(etape.type_etape.rawValue)
                     .renderingMode(.template)
                     .resizable()
-                    //.foregroundColor(.blue)
+                //.foregroundColor(.blue)
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 30)
                 
                 Text("\(etape.type_etape.rawValue)")
                     .font(Font.custom("Galibier-Regular", size: 18))
             }
-        }.padding()
+        }
+        .padding()
+        .toolbar {
+            ToolbarItem(placement: .principal) {
+                Image("Logo")
+                    .renderingMode(.original)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+            }
+        }
     }
 }
 

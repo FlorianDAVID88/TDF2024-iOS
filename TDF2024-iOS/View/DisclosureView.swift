@@ -31,6 +31,6 @@ struct DisclosureView<Content: View>: View {
 struct DisclosureView_Previews: PreviewProvider {
     static var previews: some View {
         DisclosureView(title: "text", content: Text("fghj"))
-            .environmentObject(TDFViewModel(villeViewModel: VilleViewModel()))
+            .environmentObject(TDFViewModel(villeViewModel: VilleViewModel(), equipeViewModel: EquipeViewModel()))
     }
 }

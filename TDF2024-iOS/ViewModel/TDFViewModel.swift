@@ -15,11 +15,13 @@ struct VilleEtape {
 
 class TDFViewModel: ObservableObject {
     @Published var villeViewModel: VilleViewModel
+    @Published var equipeViewModel: EquipeViewModel
     @Published var etapes: [Stage] = []
     @Published var repos: [Repos] = []
     
-    init(villeViewModel: VilleViewModel) {
+    init(villeViewModel: VilleViewModel, equipeViewModel: EquipeViewModel) {
         self.villeViewModel = villeViewModel
+        self.equipeViewModel = equipeViewModel
         etapes.append(contentsOf: Stage.allCases)
         repos.append(contentsOf: Repos.allCases)
     }
