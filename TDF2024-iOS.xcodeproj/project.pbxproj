@@ -29,7 +29,6 @@
 		EFCBFA8329EE84E700895745 /* ListCoureursFromTeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCBFA8229EE84E700895745 /* ListCoureursFromTeamView.swift */; };
 		EFCBFA8529EE8C8900895745 /* EquipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCBFA8429EE8C8900895745 /* EquipeViewModel.swift */; };
 		EFCBFA8729EE8DEC00895745 /* Coureur.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCBFA8629EE8DEC00895745 /* Coureur.swift */; };
-		EFCBFA8929EEBBDD00895745 /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCBFA8829EEBBDD00895745 /* TestingView.swift */; };
 		EFFE533D29DD85E600C261A3 /* Galibier-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFFE533A29DD85E600C261A3 /* Galibier-Regular.ttf */; };
 		EFFE533E29DD85E600C261A3 /* Galibier-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFFE533B29DD85E600C261A3 /* Galibier-Bold.ttf */; };
 		EFFE533F29DD85E600C261A3 /* Galibier-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFFE533C29DD85E600C261A3 /* Galibier-Light.ttf */; };
@@ -67,7 +66,6 @@
 		EFCBFA8229EE84E700895745 /* ListCoureursFromTeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoureursFromTeamView.swift; sourceTree = "<group>"; };
 		EFCBFA8429EE8C8900895745 /* EquipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipeViewModel.swift; sourceTree = "<group>"; };
 		EFCBFA8629EE8DEC00895745 /* Coureur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coureur.swift; sourceTree = "<group>"; };
-		EFCBFA8829EEBBDD00895745 /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
 		EFFE533A29DD85E600C261A3 /* Galibier-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Galibier-Regular.ttf"; sourceTree = "<group>"; };
 		EFFE533B29DD85E600C261A3 /* Galibier-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Galibier-Bold.ttf"; sourceTree = "<group>"; };
 		EFFE533C29DD85E600C261A3 /* Galibier-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Galibier-Light.ttf"; sourceTree = "<group>"; };
@@ -122,7 +120,6 @@
 				EF17250429DC6FDA00FAEB5A /* Persistence.swift */,
 				EF17250129DC6FDA00FAEB5A /* Preview Content */,
 				EFFE536129DDA70700C261A3 /* AppDelegate.swift */,
-				EFCBFA8829EEBBDD00895745 /* TestingView.swift */,
 			);
 			path = "TDF2024-iOS";
 			sourceTree = "<group>";
@@ -330,7 +327,6 @@
 				EF87F8FC29ED8A1D0066489B /* Equipe.swift in Sources */,
 				EF17250529DC6FDA00FAEB5A /* Persistence.swift in Sources */,
 				EF17251B29DC72C000FAEB5A /* EtapeView.swift in Sources */,
-				EFCBFA8929EEBBDD00895745 /* TestingView.swift in Sources */,
 				EF87F8F629ED85820066489B /* CoureurView.swift in Sources */,
 				EF17251D29DC72D000FAEB5A /* ColView.swift in Sources */,
 				EF87F8F829ED85A60066489B /* TeamView.swift in Sources */,

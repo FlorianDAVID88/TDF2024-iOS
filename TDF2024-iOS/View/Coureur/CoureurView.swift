@@ -9,7 +9,8 @@ import SwiftUI
 
 struct CoureurView: View {
     @State var coureur: Coureur
-    
+    @Environment(\.presentationMode) var presentationMode
+
     var body: some View {
         VStack(spacing: 15) {
             Image("\(coureur.prenom_coureur) \(coureur.nom_coureur)")
@@ -45,6 +46,17 @@ struct CoureurView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 150)
+                .onTapGesture {
+                    self.presentationMode.wrappedValue.dismiss()
+                }
+        }
+        .toolbar {
+            ToolbarItem(placement: .principal) {
+                Image("Logo")
+                    .renderingMode(.original)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+            }
         }
     }
 }

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TeamView: View {
     @State var team: Equipe
-    
+
     var body: some View {
         ScrollView {
             VStack(spacing: 5) {

@@ -27,9 +27,6 @@ struct ContentView: View {
                             
                             Text("Carte").textCase(.uppercase)
                         }
-                        .toolbar {
-                            
-                        }
                     
                     AllTeamsView()
                         .tabItem {
@@ -53,7 +50,9 @@ struct ContentView: View {
     }
     
     init() {
-        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.init(name: "Galibier-Bold", size: 15)! ], for: .normal)
+        let attributes = [NSAttributedString.Key.font: UIFont.init(name: "Galibier-Bold", size: 15)! ]
+        UITabBarItem.appearance().setTitleTextAttributes(attributes, for: .normal)
+        UIBarButtonItem.appearance().setTitleTextAttributes(attributes, for: .normal)
     }
 }
 
@@ -62,6 +61,5 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .environmentObject(TDFViewModel(villeViewModel: VilleViewModel(), equipeViewModel: EquipeViewModel()))
-            //.environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
