@@ -29,15 +29,15 @@ struct AllTeamsView: View {
                                         .aspectRatio(contentMode: .fit)
                                         .frame(width: 70)
                                     
-                                    Text("\(team.nom_equipe)")
-                                        .font(Font.custom("Galibier-bold", size: 24))
-                                        .textCase(.uppercase)
-                                    
                                     Image("\(team.pays.rawValue)")
                                         .renderingMode(.original)
                                         .resizable()
                                         .aspectRatio(contentMode: .fit)
                                         .frame(width: 25)
+                                    
+                                    Text("\(team.nom_equipe)")
+                                        .font(Font.custom("Galibier-bold", size: 24))
+                                        .textCase(.uppercase)
                                     
                                     Spacer()
                                     

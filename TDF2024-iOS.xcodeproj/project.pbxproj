@@ -21,6 +21,7 @@
 		EF2BFEEF29DE3E2000778A75 /* DisclosureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2BFEEE29DE3E2000778A75 /* DisclosureView.swift */; };
 		EF2BFEF529DE411700778A75 /* ListEtapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2BFEF429DE411700778A75 /* ListEtapesView.swift */; };
 		EF2BFEF729DE4B5400778A75 /* Repos.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2BFEF629DE4B5400778A75 /* Repos.swift */; };
+		EF6D4A3E29FDB2A6009A4A37 /* SliderBarColsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6D4A3D29FDB2A6009A4A37 /* SliderBarColsView.swift */; };
 		EF87F8F629ED85820066489B /* CoureurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF87F8F529ED85820066489B /* CoureurView.swift */; };
 		EF87F8F829ED85A60066489B /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF87F8F729ED85A60066489B /* TeamView.swift */; };
 		EF87F8FA29ED85DD0066489B /* AllTeamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF87F8F929ED85DD0066489B /* AllTeamsView.swift */; };
@@ -58,6 +59,7 @@
 		EF2BFEEE29DE3E2000778A75 /* DisclosureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureView.swift; sourceTree = "<group>"; };
 		EF2BFEF429DE411700778A75 /* ListEtapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEtapesView.swift; sourceTree = "<group>"; };
 		EF2BFEF629DE4B5400778A75 /* Repos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repos.swift; sourceTree = "<group>"; };
+		EF6D4A3D29FDB2A6009A4A37 /* SliderBarColsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBarColsView.swift; sourceTree = "<group>"; };
 		EF87F8F529ED85820066489B /* CoureurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoureurView.swift; sourceTree = "<group>"; };
 		EF87F8F729ED85A60066489B /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
 		EF87F8F929ED85DD0066489B /* AllTeamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTeamsView.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				EF2BFEF029DE406C00778A75 /* Home */,
 				EF1724FD29DC6FD900FAEB5A /* ContentView.swift */,
 				EF2BFEEE29DE3E2000778A75 /* DisclosureView.swift */,
+				EF6D4A3D29FDB2A6009A4A37 /* SliderBarColsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFFE536829DDC0FE00C261A3 /* TDFTextStyles.swift in Sources */,
+				EF6D4A3E29FDB2A6009A4A37 /* SliderBarColsView.swift in Sources */,
 				EFCBFA8329EE84E700895745 /* ListCoureursFromTeamView.swift in Sources */,
 				EF2BFEEF29DE3E2000778A75 /* DisclosureView.swift in Sources */,
 				EF9222B629DC7A660043DC85 /* TDF2024_iOS.xcdatamodeld in Sources */,

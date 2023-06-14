@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct EtapeView: View {
+    @EnvironmentObject var viewModel: TDFViewModel
     @State var etape: Stage
     @State var villes: [Ville] {
         didSet {
@@ -16,36 +17,47 @@ struct EtapeView: View {
     }
     
     var body: some View {
-        VStack {
-            let index = Int(etape.longueur * 10.0)%10
-            let long = index == 0 ? "\(Int(etape.longueur)) km" : "\(String(format: "%.1f", etape.longueur)) km"
-            Text("\(etape.libelle_etape)")
-                .modifier(TDFTitleStyle())
-            
-            Text("\(villes[0].nom_ville) > \(villes[1].nom_ville) (\(long))")
-                .font(Font.custom("Galibier-Bold", size: 24))
-                .textCase(.uppercase)
-                .multilineTextAlignment(.center)
-            
-            HStack(spacing: 10) {
-                Image(etape.type_etape.rawValue)
-                    .renderingMode(.template)
-                    .resizable()
-                //.foregroundColor(.blue)
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 30)
+        ScrollView {
+            VStack {
+                let index = Int(etape.longueur * 10.0)%10
+                let long = index == 0 ? "\(Int(etape.longueur)) km" : "\(String(format: "%.1f", etape.longueur)) km"
+                Text("\(etape.libelle_etape)")
+                    .modifier(TDFTitleStyle())
                 
-                Text("\(etape.type_etape.rawValue)")
-                    .font(Font.custom("Galibier-Regular", size: 18))
-            }
-        }
-        .padding()
-        .toolbar {
-            ToolbarItem(placement: .principal) {
-                Image("Logo")
+                Text("\(villes[0].nom_ville) > \(villes[1].nom_ville) (\(long))")
+                    .font(Font.custom("Galibier-Bold", size: 24))
+                    .textCase(.uppercase)
+                    .multilineTextAlignment(.center)
+                
+                HStack(spacing: 10) {
+                    Image(etape.type_etape.rawValue)
+                        .renderingMode(.template)
+                        .resizable()
+                    //.foregroundColor(.blue)
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 30)
+                    
+                    Text("\(etape.type_etape.rawValue)")
+                        .font(Font.custom("Galibier-Regular", size: 18))
+                }
+                
+                Image("\(etape.libelle_etape)")
                     .renderingMode(.original)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
+                    .frame(height: 250)
+                
+                DisclosureView(title: "Cols", content: SliderBarColsView(cols: viewModel.getColsFromEtape(etape: etape)))
+                
+            }
+            .padding()
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    Image("Logo")
+                        .renderingMode(.original)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                }
             }
         }
     }
@@ -55,5 +67,6 @@ struct EtapeView_Previews: PreviewProvider {
     static var previews: some View {
         let n = Int(arc4random_uniform(UInt32(21)))
         EtapeView(etape: Stage.allCases[n], villes: [Ville.allCases[2*n], Ville.allCases[2*n + 1]])
+            .environmentObject(TDFViewModel(villeViewModel: VilleViewModel(), equipeViewModel: EquipeViewModel()))
     }
 }

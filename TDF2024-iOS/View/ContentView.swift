@@ -15,7 +15,7 @@ struct ContentView: View {
                 TabView {
                     HomeView()
                         .tabItem {
-                            Image(systemName: "homekit")
+                            Image(systemName: "house")
                             Text("Accueil").textCase(.uppercase)
                         }
                     

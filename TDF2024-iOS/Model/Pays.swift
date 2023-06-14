@@ -44,4 +44,5 @@ enum Pays: String, CaseIterable {
     case Hongrie
     case Luxembourg
     case Monaco
+    case SM = "Saint-Marin"
 }

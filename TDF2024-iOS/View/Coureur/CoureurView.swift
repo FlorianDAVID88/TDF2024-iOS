@@ -40,15 +40,22 @@ struct CoureurView: View {
                     .textCase(.uppercase)
                     .multilineTextAlignment(.center)
             }
-            
-            Image("\(coureur.equipe.nom_equipe)")
-                .renderingMode(.original)
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 150)
-                .onTapGesture {
-                    self.presentationMode.wrappedValue.dismiss()
+            HStack(spacing: 20) {
+                if coureur.titulaire {
+                    VStack {
+                        Text("Dossard").font(Font.custom("Galibier-Bold", size: 20)).textCase(.uppercase)
+                        Text("N°\(coureur.id_coureur)").font(Font.custom("Galibier-Bold", size: 40))
+                    }
                 }
+                Image("\(coureur.equipe.nom_equipe)")
+                    .renderingMode(.original)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 150)
+                    .onTapGesture {
+                        self.presentationMode.wrappedValue.dismiss()
+                    }
+            }
         }
         .toolbar {
             ToolbarItem(placement: .principal) {
@@ -63,6 +70,6 @@ struct CoureurView: View {
 
 struct CoureurView_Previews: PreviewProvider {
     static var previews: some View {
-        CoureurView(coureur: Coureur.allCases[65])
+        CoureurView(coureur: Coureur.allCases[38])
     }
 }

@@ -40,4 +40,9 @@ struct Stage {
         Stage(libelle_etape: "Étape 20", type_etape: .HteMontagne, longueur: 132, date: "20/07/2024", descriptif: ""),
         Stage(libelle_etape: "Étape 21", type_etape: .ClmInd, longueur: 35, date: "21/07/2024", descriptif: "")
     ]
+    
+    mutating func equalsTo(etape: Stage) -> Bool {
+        return self.id_etape == etape.id_etape && self.libelle_etape == etape.libelle_etape && self.type_etape == etape.type_etape &&
+                self.longueur == etape.longueur && self.date == etape.date && self.descriptif == etape.descriptif
+    }
 }

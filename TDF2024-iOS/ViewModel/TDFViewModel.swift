@@ -14,12 +14,14 @@ struct VilleEtape {
 }
 
 class TDFViewModel: ObservableObject {
+    //@Published var lang: String = ""
     @Published var villeViewModel: VilleViewModel
     @Published var equipeViewModel: EquipeViewModel
     @Published var etapes: [Stage] = []
     @Published var repos: [Repos] = []
     
     init(villeViewModel: VilleViewModel, equipeViewModel: EquipeViewModel) {
+        //self.lang = Locale.current.languageCode?.identifier
         self.villeViewModel = villeViewModel
         self.equipeViewModel = equipeViewModel
         etapes.append(contentsOf: Stage.allCases)
@@ -67,5 +69,15 @@ class TDFViewModel: ObservableObject {
             }
         }
         return villes
+    }
+    
+    func getColsFromEtape(etape: Stage) -> [Col] {
+        var cols: [Col] = []
+        for var col in Col.allCases {
+            if col.etape.equalsTo(etape: etape) {
+                cols.append(col)
+            }
+        }
+        return cols
     }
 }

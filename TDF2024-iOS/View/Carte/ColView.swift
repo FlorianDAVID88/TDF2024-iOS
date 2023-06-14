@@ -8,28 +8,51 @@
 import SwiftUI
 
 struct ColView: View {
-    @State private var isExpanded = false
+    @State var col: Col
     
     var body: some View {
         VStack {
-                    DisclosureGroup(
-                        isExpanded: $isExpanded,
-                        content: {
-                            Text("Contenu de la section")
-                                .padding()
-                        },
-                        label: {
-                            Text("Titre de la section")
-                                .modifier(TDFTitle2Style())
-                        }
-                    )
+            Text("\(col.nom_col)")
+                .font(Font.custom("Galibier-bold", size: 20))
+                .textCase(.uppercase)
+            
+            let km = col.nb_km < 1
+            ? "\(Int((col.nb_km * 1000 as NSDecimalNumber).intValue)) m"
+            : String(format: "%.1f km", Double((col.nb_km as NSDecimalNumber).doubleValue))
+            
+            let pourcentage = String(format: "%.1f", Double((col.pourcentage as NSDecimalNumber).doubleValue))
+            VStack {
+                Text("\(km) à \(pourcentage) %")
+                Text("(\(col.cat_col.rawValue))")
+            }
+            .font(Font.custom("Galibier-regular", size: 18))
+            
+            if UIImage(named: col.nom_col) != nil {
+                Image("\(col.nom_col)")
+                    .renderingMode(.original)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(height: 300)
+            }
+            
+            Button {
+            } label: {
+                NavigationLink(destination: EmptyView()) {
+                    Text("Détails".uppercased())
+                        .font(Font.custom("Galibier-Bold", size: 18))
+                        .padding(5)
+                        .foregroundColor(.black)
+                        .background(.yellow)
                 }
-                .padding()
+            }
+        }
+        .padding()
+        .foregroundColor(.accentColor)
     }
 }
 
 struct ColView_Previews: PreviewProvider {
     static var previews: some View {
-        ColView()
+        ColView(col: Col.allCases[55])
     }
 }
